@@ -3,7 +3,7 @@ import React from 'react'
 function TaskCard({title, date}) {
   return (
     <div>
-      <div className="border mb-3  rounded-xl p-3">    
+      <div className="border mb-3 rounded-xl p-3">    
             <p>{title}</p>   
             <p className="text-[14px] font-light  text-neutral-700">{date}</p>
             <div className="flex gap-4 ">

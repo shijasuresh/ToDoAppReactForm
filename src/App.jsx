@@ -32,7 +32,7 @@ function App() {
 
       <div className="w-[360px] mx-auto mt-5">
         {
-          tasks.length > 0 ? tasks.map((task,index)=> <TaskCard key={index} title={task.task} date={task.dueDate} />) : <h1>No Tasks</h1>
+          tasks.length > 0 ? tasks.map((task,index)=> <TaskCard key={index} title={task.task} date={task.dueDate} />) : <h1 className='text-center mt-5'>No Tasks</h1>
         }
      </div>      
 
